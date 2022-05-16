@@ -10,8 +10,11 @@ for(let tmp of array_data) {
 for(let tmp of str_data) {
   console.log(tmp);
 }
-for(let [key, value] of map_data) {
-  console.log(`${key}：${value}`);
+// for(let [key, value] of map_data) {
+//   console.log(`${key}：${value}`);
+// }
+for (let [key, value] of map_data){
+  console.log(`${key}:${value}`)
 }
 let itr = array_data.values(); 
 let c;
