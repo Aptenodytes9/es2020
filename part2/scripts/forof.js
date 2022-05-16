@@ -3,3 +3,6 @@ Array.prototype.hoge = function() {};
 for(let d of data) {
   console.log(d);
 }
+for(let d of data) {
+  console.log(d);
+}

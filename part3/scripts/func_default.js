@@ -15,6 +15,7 @@ function add(a, b = a) {
 }
 console.log(add(1, 4));
 console.log(add(1));
+
 function dateFormat(date = new Date()) {
   return date.toLocaleString();
 }

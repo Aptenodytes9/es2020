@@ -11,7 +11,7 @@ console.log(m.get('hoge'));
 console.log(m.get(obj));
 console.log(m.get({}));
 console.log(m.has('hoge'));
-for(let key of m.keys()) {
+for(const key of m.keys()) {
   console.log(key);
 }
 for(let value of m.values()) {
